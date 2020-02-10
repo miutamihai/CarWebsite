@@ -1,11 +1,36 @@
+ul {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+}
+
 .logo{
     width: 100px;
     height: 100px;
 }
 
+.navBarImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .slideShowImage{
     width: 100%;
     height: 75%;
+}
+
+.navBarButton{
+    float:left;
+    font-size: 20px;
 }
 
 /* Slideshow container */
