@@ -1,0 +1,98 @@
+/* Container holding the image and the text */
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front-image {
+    height: 350px;
+    width: 500px;
+}
+
+.bottom-pictures {
+    width: 1000px;
+    margin: 0;
+}
+.left-picture    {
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.right-picture  {
+    width: 600px;
+    height: 400px;
+    margin-left: 600px;
+}
+.bottom-image {
+    width: 600px;
+    height: 500px;
+}
+
+
+#abarth-text{
+
+}
+
+#abarth-image{
+
+}
+
+#abarth-article{
+
+}
+#left-picture-abarth{
+
+}
+
+#right-picture-abarth{
+
+}
+
+#tcross-article{
+
+}
+
+
+#tcross-image{
+
+}
+
+#tcross-text{
+
+}
+
+
+#left-picture-tcross{
+
+}
+
+#right-picture-tcross{
+
+}
+
+#suzuki-image{
+
+}
+
+#suzuki-text{
+
+}
+
+#suzuki-article{
+
+}
+#right-picture-suzuki{
+
+}
+
+#left-picture-suzuki{
+
+}
