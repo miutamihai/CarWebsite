@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SUV-uri</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_suv.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="../js/suv-animations.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <img src="../assets/images/design_assets/new_logo.png">
+        <ul class="navbar-nav mr-auto navBarClass">
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../index.html">
+                    Home
+                    <img src="../assets/images/design_assets/home.png" class="navBarImage">
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/compacts.html">
+                    Compacte
+                    <img src="../assets/images/cars/mini.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/city_cars.html">
+                    Mașini de oraș
+                    <img src="../assets/images/cars/sedan.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/suv.html">
+                    SUV-uri
+                    <img src="../assets/images/cars/suv.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="#" >
+                    Pick-up
+                    <img src="../assets/images/cars/pickup.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="#">
+                    Mașini de familie
+                    <img src="../assets/images/cars/family_car.png" class="navBarImage">
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="#">
+                    Pentru pasionați
+                    <img src="../assets/images/cars/empassioned.png" class="navBarImage">
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<h1 class="display-1">
+    SUV-uri
+</h1>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#g" onclick="animate_content('g')">Mercedes G-class</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#q8" onclick="animate_content('q8')">Audi Q8</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#stelvio" onclick="animate_content('stelvio')">Alfa Romeo Stelvio</a>
+    </li>
+
+</ul>
+<div class="tab-content">
+    <div class="tab-pane fade active show" id="g">
+        <div class="jumbotron">
+            <div class="image-container">
+                <img src="../assets/images/suv_images/g1.jpg" class="front-image" id="g-image">
+                <div class="centered" style="opacity: 0" id="g-text">
+                    <h1 class="display-3">
+                        Mercedes G-class
+                    </h1>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div id="g-article" style="opacity: 0">
+                <p class="lead">
+                    Un off-roader desăvârșit Designul robust și caracterul său autentic au făcut din G-class o emblemă a mărcii germane. G-Class 2019 îşi păstrează însă stilul elegant atât la exterior, cât şi la interior . În ciuda aspectului familiar, modelul reproiectat este cu 53 mm mai lung şi cu 121 mm mai lat decât predecesorul său. Cu o gardă la sol de 241 de mm el poatre traversa praguri de 700 de mm. La interior vedem un volan complet nou, accente metalice şi ornamente din lemn sau fibră de carbon. Pentru momentele dificile din off-road, nemții au pregătit un mod care se activează automat. Acesta se numește G-Mode și intervine ori de câte ori unul dintre cele trei diferențiale este blocat sau în momentul selectării Low Range. Fără alte comentarii, aflat la a 2-a sa generație, noul G este demn de moștenirea pe care o poartă dovedindu-se modern, capabil pe teren accidentat și confortabil în cele mai multe situații.
+                </p>
+            </div>
+            <hr class="mb-4">
+            <div class="bottom-pictures" id="bottom">
+                <div class="left-picture" id="left-picture-g">
+                    <img src="../assets/images/suv_images/g2.jpg" class="bottom-image">
+                </div>
+                <div class="right-picture" id="right-picture-g">
+                    <img src="../assets/images/suv_images/g3.jpg" class="bottom-image">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="tab-pane fade show" id="q8">
+        <div class="jumbotron">
+            <div class="image-container">
+                <img src="../assets/images/suv_images/q8.jpg" class="front-image" id="q8-image">
+                <div class="centered" style="opacity: 0" id="q8-text">
+                    <h1 class="display-3">
+                        Audi Q8
+                    </h1>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div id="q8-article" style="opacity: 0">
+                <p class="lead">
+                    Noul Audi Q8 combină cele mai bune lucruri din două lumi diferite – eleganța unui coupe de lux cu patru uși și versatilitatea convenabilă a unui SUV de dimensiuni mari. Noul suv al celor din Ingolstadt concureaz[ pentru titlul de cel mai frumos SAV(sport activity vehicle) al anului 2020, propunând geamuri fără ramă, un bandou led de la un cap la celălalt al mașini și jante de până la 22 inci. Cu o tracţiune integrală permanentă quattro și o gardă la sol de până la 254 milimetri, noul SUV coupe poate continua deplasarea chiar şi atunci când se termină drumurile pavate. Sub capotă va fi oferit deocamdată doar cu un propulsor 3.0 TDI (model cu nomenclatura Q8 50 TDI). Acesta produce 286 de CP, 600 Nm şi contribuie la acceleraţia maşinii de la 0 la 100 de km/h în 6.3 secunde. Viteza maximă pe care o poate atinge este limitată la 245 de km/h. Un Audi Q8 vine standard cu: jante de 19 inci, uşă a portbagajului acţionată electric, faruri şi stopuri LED, parbriz cu dublu strat, suspensie cu amortizoare adaptive, sistem MMI navigation plus care include navigaţie de top şi panou de bord digital, puncte de acces LTE Advanced, pachet de sisteme de siguranţă, etc.
+                </p>
+            </div>
+            <hr class="mb-4">
+            <div class="bottom-pictures" id="bottom1">
+                <div class="left-picture" id="left-picture-q8">
+                    <img src="../assets/images/suv_images/q82.jpg" class="bottom-image">
+                </div>
+                <div class="right-picture" id="right-picture-q8">
+                    <img src="../assets/images/suv_images/q83.jpg" class="bottom-image">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="tab-pane fade show" id="stelvio">
+        <div class="jumbotron">
+            <div class="image-container">
+                <img src="../assets/images/suv_images/stelvio.jpg" class="front-image" id="stelvio-image">
+                <div class="centered" style="opacity: 0" id="stelvio-text">
+                    <h1 class="display-4">
+                        Alfa Romeo Stelvio
+                    </h1>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div id="stelvio-article" style="opacity: 0">
+                <p class="lead">
+                    Cele trei ingrediente speciale ale designului italian – proportii, simplitate si finisare impecabila – sunt oferite deja de Giulia, noua referinta a marcii Alfa Romeo, si au fost atent prelucrate si adaptate pentru a se potrivi unui SUV. Proportiile compacte ale noului Stelvio exprima forta si dinamism, atestate de lungimea de 468 cm, inaltimea de 165 cm si latimea de 216 cm. Unul din obiectivele primare pentru designul lui Stelvio Quadrifoglio a fost atingerea plăcerii absolute la volan. Factorii cheie care contribuie la acest aspect sunt distribuţia perfectă a masei pe cele două punţi şi un raport putere/greutate optim. Pentru primul, a fost necesară o gestionare inteligentă a materialelor şi a maselor, obţinută prin modificarea arhitecturii şi poziţionarea celor mai grele componente cât mai central posibil. Raportul ideal putere/greutate a fost obţinut prin folosirea de materiale ultrauşoare, precum fibra de carbon pentru arborele cardanic şi aluminiu pentru motor, suspensii, frâne, portiere, aripi laterale, capotă şi portbagaj. Pe lângă motorul de 510 CP oferit exclusiv de versiunea Quadrifoglio, Afla Romeo introduce şi un motor turbo de 2 litri cu 280 CP, cuplat la o transmisie automată cu 8 trepte. Blocul motor în 4 cilindri este realizat din aluminiu şi capabil să dezvolte 280 CP la 5.250 rpm şi un cuplu maxim de 400 Nm la 2.250 rpm. Motorul dispune, de asemenea, de un sistem turbo 2in1 şi de un sistem de injecţie la presiunea de 200 bari, pentru un răspuns rapid la apăsarea pedalei de acceleraţie pe toată plaja de turaţii, în condiţii de top în ceea ce priveşte economia de combustibil.
+                </p>
+            </div>
+            <hr class="mb-4">
+            <div class="bottom-pictures" id="bottom2">
+                <div class="left-picture" id="left-picture-stelvio">
+                    <img src="../assets/images/suv_images/stelvio2.jpg" class="bottom-image">
+                </div>
+                <div class="right-picture" id="right-picture-stelvio">
+                    <img src="../assets/images/suv_images/stelvio3.jpeg" class="bottom-image">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+</div>
+<hr class="my-4">
+
+
+</body>
+</html>
