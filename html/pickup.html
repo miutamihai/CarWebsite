@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pickup-uri</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_pickup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="../js/pickup-animations.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <img src="../assets/images/design_assets/new_logo.png">
+        <ul class="navbar-nav mr-auto navBarClass">
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../index.html">
+                    Home
+                    <img src="../assets/images/design_assets/home.png" class="navBarImage">
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/compacts.html">
+                    Compacte
+                    <img src="../assets/images/cars/mini.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/city_cars.html">
+                    Mașini de oraș
+                    <img src="../assets/images/cars/sedan.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/suv.html">
+                    SUV-uri
+                    <img src="../assets/images/cars/suv.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/pickup.html" >
+                    Pick-up
+                    <img src="../assets/images/cars/pickup.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="#">
+                    Mașini de familie
+                    <img src="../assets/images/cars/family_car.png" class="navBarImage">
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="#">
+                    Pentru pasionați
+                    <img src="../assets/images/cars/empassioned.png" class="navBarImage">
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<h1 class="display-1">
+    Pickup-uri
+</h1>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#hilux" onclick="animate_content('hilux')">Toyota Hilux</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#ranger" onclick="animate_content('ranger')">Ford Ranger</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#xclass" onclick="animate_content('xclass')">Mercedes X-class</a>
+    </li>
+
+</ul>
+<div class="tab-content">
+    <div class="tab-pane fade active show" id="hilux">
+        <div class="jumbotron">
+            <div class="image-container">
+                <img src="../assets/images/pickup_images/hilux1.jpg" class="front-image" id="hilux-image">
+                <div class="centered" style="opacity: 0" id="hilux-text">
+                    <h1 class="display-3">
+                        Toyota Hilux
+                    </h1>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div id="hilux-article" style="opacity: 0">
+                <p class="lead">
+                    La exterior o astfel de maşină se va deosebi prin numeroasele elemente finisate într-o culoare neagră sau gri, printre care se numără: partea superioară a grilei radiatorului, ramele proiectoarelor anti ceaţă şi inserţia de pe marginea barei de protecţie frontale, mânerele portierelor şi ale benei, corpurile oglinzilor retrovizoare, dar şi bara de protecţie posterioară cu inserţiile de pe aceasta. În plus, modelele care vor fi lansate în Europa de Vest vor avea nişte jante din aliaj de 18 inci vopsite în două culori, în timp ce în ţările din Europa de Est se vor pune la dispoziţie seturi de jante exclusive, la fel de 18 inci, dar vopsite complet într-o culoare neagră. La bord, noul pick-up Toyota are un interior unic, realizat complet într-o culoare neagră, a cărui calitate este susţinută de o serie de elemente cromate pe planşa de bord, dar şi de inserţii negre lucioase care se găsesc consola centrală și ornamentele ușilor, pe volan, levier și zona care îl înconjoară. Sub capotă, noua Toyota Hilux poate acomoda unul dintre cele patru motoare disponibile (în funcţie de piaţă): diesel de 2,4 litri (150 CP, 400 Nm), diesel de 2,8 litri (177 CP, 450 Nm), benzinar de 2,7 litri (164 CP) şi un motor pe benzină, de 4,0 litri, cu 278 CP. În funcţie de motorizare, noua Toyota Hilux este disponibilă cu o transmisie manuală cu şase trepte sau cu una automată, tot cu şase trepte. În materie de performanţe, merită menţionat că noul Hilux poate tracta până la 3,2 tone, cu o încărcătură maximă de 1.240 kg.
+                </p>
+            </div>
+            <hr class="mb-4">
+            <div class="bottom-pictures" id="bottom">
+                <div class="left-picture" id="left-picture-hilux">
+                    <img src="../assets/images/pickup_images/hilux2.jpg" class="bottom-image">
+                </div>
+                <div class="right-picture" id="right-picture-hilux">
+                    <img src="../assets/images/pickup_images/hilux3.jpg" class="bottom-image">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="tab-pane fade show" id="ranger">
+        <div class="jumbotron">
+            <div class="image-container">
+                <img src="../assets/images/pickup_images/ranger1.jpg" class="front-image" id="ranger-image">
+                <div class="centered" style="opacity: 0" id="ranger-text">
+                    <h1 class="display-3">
+                        Ford Ranger
+                    </h1>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div id="ranger-article" style="opacity: 0">
+                <p class="lead">
+                    Noul Ford Ranger se bucură de tehnologii mai numeroase ca oricând, fiind cel mai vândut pick-up din Europa.Sisteme avansate, printre care sistemul de recunoaștere a indicatoarelor rutiere, cel de asistență la menținerea benzii de mers și senzorii de parcare, toate îți amplifică vigilența și încrederea la drum. Iar asistența la pornirea în rampă, controlul la coborârea în pantă și asistența activă la parcare te ajută să menții controlul. Pick-up-ul are o gamă de motoare noi, concepute pentru a vă ajuta să eficientizați consumul de combustibil. Iar acestea au fost dublate de o nouă transmisie avansată, care se adaptează armonios la condiții și terenuri diferite. Are o capacitate de transport de 1000 kg și poate remorca până la 3.500 kg. Are o gardă la sol de 237 mm și se deplasează fără efort prin apă adâncă de până la 800 mm.
+                </p>
+            </div>
+            <hr class="mb-4">
+            <div class="bottom-pictures" id="bottom1">
+                <div class="left-picture" id="left-picture-ranger">
+                    <img src="../assets/images/pickup_images/ranger2.jpg" class="bottom-image">
+                </div>
+                <div class="right-picture" id="right-picture-ranger">
+                    <img src="../assets/images/pickup_images/ranger3.jpg" class="bottom-image">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="tab-pane fade show" id="xclass">
+        <div class="jumbotron">
+            <div class="image-container">
+                <img src="../assets/images/pickup_images/xclass1.jpg" class="front-image" id="xclass-image">
+                <div class="centered" style="opacity: 0" id="xclass-text">
+                    <h1 class="display-4">
+                        Mercedes X-class
+                    </h1>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div id="xclass-article" style="opacity: 0">
+                <p class="lead">
+                    Construit în colaborare cu Nissan, pe platforma cu șasiu separat a actualului Navara, Mercedes X-Class va primi la debut motorul diesel de 2,3 litri cu patru cilindri al casei nipone, declinat în versiuni turbo și bi-turbo cu 163, respectiv 190 CP. Ambele versiuni sunt oferite cu tracțiune spate sau integrală, alături de o cutie manuală cu șase trepte. Modelul de 190 CP va putea fi comandat și cu o transmisie automată cu șapte trepte. Mercedes promite și funcția de blocare a diferențialului central și a celui (opțional) spate. Garda la sol a pick-up-ului măsoară 20,2 centimetri în varianta standard, iar contra cost, Mercedes oferă o gardă la sol mărită cu 2 centimetri. Interiorul are un design unic, 100% Mercedes, cu scaune ergonomice cu reglaje electrice și tapițerie din piele de cea mai bună calitate. Planșa de bord modernă se remarcă prin ecranul independent al sistemului multimedia Comand, poziționat deasupra consolei, respectiv prin ornamentul central (lemn sau plastic cu aspect metalic) ce se întinde pe toată lungimea acesteia
+                </p>
+            </div>
+            <hr class="mb-4">
+            <div class="bottom-pictures" id="bottom2">
+                <div class="left-picture" id="left-picture-xclass">
+                    <img src="../assets/images/pickup_images/xclass2.jpg" class="bottom-image">
+                </div>
+                <div class="right-picture" id="right-picture-xclass">
+                    <img src="../assets/images/pickup_images/xclass3.jpg" class="bottom-image">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+</div>
+<hr class="my-4">
+
+</body>
+</html>
