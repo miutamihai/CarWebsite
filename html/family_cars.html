@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mașini de familie</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_family.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="../js/family-animations.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <img src="../assets/images/design_assets/new_logo.png">
+        <ul class="navbar-nav mr-auto navBarClass">
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../index.html">
+                    Home
+                    <img src="../assets/images/design_assets/home.png" class="navBarImage">
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/compacts.html">
+                    Compacte
+                    <img src="../assets/images/cars/mini.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/city_cars.html">
+                    Mașini de oraș
+                    <img src="../assets/images/cars/sedan.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/suv.html">
+                    SUV-uri
+                    <img src="../assets/images/cars/suv.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/pickup.html" >
+                    Pick-up
+                    <img src="../assets/images/cars/pickup.png" class="navBarImage"/>
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="../html/family_cars.html">
+                    Mașini de familie
+                    <img src="../assets/images/cars/family_car.png" class="navBarImage">
+                </a>
+            </li>
+            <li class="nav-item navBarItem">
+                <a class="nav-link navBarButton" href="#">
+                    Pentru pasionați
+                    <img src="../assets/images/cars/empassioned.png" class="navBarImage">
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<h1 class="display-1">
+    Mașini de familie
+</h1>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#a6" onclick="animate_content('a6')">Audi A6</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#arteon" onclick="animate_content('arteon')">Volkswagen Arteon</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#eclass" onclick="animate_content('eclass')">Mercedes E-class</a>
+    </li>
+
+</ul>
+<div class="tab-content">
+    <div class="tab-pane fade active show" id="a6">
+        <div class="jumbotron">
+            <div class="image-container">
+                <img src="../assets/images/family_cars/a61.jpg" class="front-image" id="a6-image">
+                <div class="centered" style="opacity: 0" id="a6-text">
+                    <h1 class="display-3">
+                        Audi A6
+                    </h1>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div id="a6-article" style="opacity: 0">
+                <p class="lead">
+                    Noul Audi A6 este mai sportiv grație inovațiilor introduse la nivelul suspensiei, cu multe componente din aluminiu.
+                    Direcția integrală permite rotirea roților spate cu până la 5 grade, reducând diametrul de bracaj cu 1,1 metri (11,1 metri).
+                    În ciuda jantelor mai mari, de până la 21 de inci (anvelope până la 255/35), A6 și-a îmbunătățit confortul în mers și cel acustic.
+                    Audi oferă patru variante de suspensie: convențională cu amortizoare cu arc, sport, adaptivă și pneumatică adaptivă.
+                    Audi oferă noul A6 cu două motoare puternice, unul pe benzină și altul pe motorină.
+                    Unitatea pe benzină 3.0 TFSI are 340 CP și 500 Nm, este cuplată la o transmisie automată cu 7 trepte S tronic, ajunge la 100 km/h în 5,1 secunde și promite un consum mixt de 7,1 l/100 km.
+                    Dieselul 3.0 TDI are 286 CP și 620 Nm, este cuplat la o transmisie automată tiptronic cu 8 viteze și promite un consum mediu de 5,8 l/100 km.
+                    Ambele motorizări vin în standard cu transmisia integrală quattro, care are diferențial central blocabil în cazul lui tiptronic, iar în cazul lui S tronic activează tracțiunea spate doar la nevoie.
+                    În gamă, își va face apariția și o unitate diesel de 2.0 litri, care va dezvolta 204 CP și 400 Nm.
+                </p>
+            </div>
+            <hr class="mb-4">
+            <div class="bottom-pictures" id="bottom">
+                <div class="left-picture" id="left-picture-a6">
+                    <img src="../assets/images/family_cars/a62.jpg" class="bottom-image">
+                </div>
+                <div class="right-picture" id="right-picture-a6">
+                    <img src="../assets/images/family_cars/a63.jpg" class="bottom-image">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="tab-pane fade show" id="arteon">
+        <div class="jumbotron">
+            <div class="image-container">
+                <img src="../assets/images/family_cars/arteon1.jpg" class="front-image" id="arteon-image">
+                <div class="centered" style="opacity: 0" id="arteon-text">
+                    <h1 class="display-3">
+                        Volkswagen Arteon
+                    </h1>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div id="arteon-article" style="opacity: 0">
+                <p class="lead">
+                    Volkwagen Arteon este cel mai nou model introdus în portofoliul mărcii din Wolfsburg, acesta înlocuind, din punct de vedere tehnic, vechiul Passat CC (și într-o oarecare măsură și limuzina Phaeton), cu o caroserie nouă, de tip fastback.
+                    Gama de motorizări include trei variante pe benzină și tot atâtea diesel.
+                    Modelul entry-level va fi animat de noul turbo de 1,5 litri cu 150 CP și sistem de dezactivare parțială a doi dintre cei patru cilindri.
+                    Urcând pe scala de putere, Arteon poate fi comandat alături de un turbo de 2 litri, oferit în versiuni de 190 și 280 CP. Ultimele două sunt disponibile exclusiv cu transmisia DSG7, opțională pentru 1.5 TSI.
+                    Arteon 2.0 TSI 280 CP dispune în plus de tracțiune integrală 4Motion standard. Din gama diesel fac parte trei variante ale binecunoscutului motor TDI de 2 litri, cu 150, 190 și 240 CP (bi-turbo, DSG și 4Motion standard).
+                    Ulterior, gama va fi extinsă și cu o versiune GTE plug-in hibridă, care va combina un V6 TSI de 3 litri și 300 CP cu două motoare electrice (unul în față și unul pe puntea spate) pentru a livra o putere totală estimată la 380 CP.
+                </p>
+            </div>
+            <hr class="mb-4">
+            <div class="bottom-pictures" id="bottom1">
+                <div class="left-picture" id="left-picture-arteon">
+                    <img src="../assets/images/family_cars/arteon2.jpg" class="bottom-image">
+                </div>
+                <div class="right-picture" id="right-picture-arteon">
+                    <img src="../assets/images/family_cars/arteon3.jpg" class="bottom-image">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="tab-pane fade show" id="eclass">
+        <div class="jumbotron">
+            <div class="image-container">
+                <img src="../assets/images/family_cars/eclass1.jpg" class="front-image" id="eclass-image">
+                <div class="centered" style="opacity: 0" id="eclass-text">
+                    <h1 class="display-4">
+                        Mercedes E-class
+                    </h1>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div id="eclass-article" style="opacity: 0">
+                <p class="lead">
+                    Unul din trei modele Mercedes vândute în Europa este un break, iar noul Mercedes E-Class T-Modell nu dezamăgește. Acesta va fi singurul break din clasa sa capabil să transporte o încărcătură cu dimensiuni standard tip Euro-Palet. Sarcina maximă utilă indicată de Mercedes este de 745 kg. Mercedes va oferi din nou și opțiunea unei perechi de scaune suplimentare, montate în portbagaj și dedicate copiiilor.
+                    La debut, vedeta gamei de motorizări va fi noul diesel de 2 litri, nume de cod OM654, inițial disponibil într-o singură treaptă de putere: 194 CP pentru E 220 d. Acesta va fi acompaniat de două variante pe benzină, animate de un turbo de 2 litri cu patru cilindri și 184 CP (E 200) sau 211 CP (E 250). Cutia automată 9G-Tronic cu nouă trepte va fi standard.
+                    Ulterior vor fi lansate versiunile E 400 (3 litri benzină, șase cilindri, 333 CP) și E 350 d (diesel V6 de 3 litri și 258 CP), precum și dieselul entry-level E 200 d de 2 litri și 150 CP.
+                    La capitolul design, noul Mercedes E-Class T-Modell adoptă o siluetă fluidă ce amintește de liniile senzuale ale lui CLS Shooting Brake.
+                    Din punct de vedere tehnic, noul E-Class T-Modell va fi în mare măsură identică cu sedanul. Vor fi prezente inclusiv cadranele de bord digitale (opționale) cu cele două ecrane TFT de 12,3 inch, sistemele de conducere semi-autonomă și funcția de parcare automată prin intermediul unui smartphone.
+                    Versiunile standard vor primi instrumente tradiționale analogice și un ecran de 8.4 inch de infotainment central.
+                </p>
+            </div>
+            <hr class="mb-4">
+            <div class="bottom-pictures" id="bottom2">
+                <div class="left-picture" id="left-picture-eclass">
+                    <img src="../assets/images/family_cars/eclass2.jpg" class="bottom-image">
+                </div>
+                <div class="right-picture" id="right-picture-eclass">
+                    <img src="../assets/images/family_cars/eclass3.jpg" class="bottom-image">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+</div>
+<hr class="my-4">
+
+</body>
+</html>

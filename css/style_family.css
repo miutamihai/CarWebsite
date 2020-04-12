@@ -1,0 +1,131 @@
+.navBarClass {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navBarItem {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.navBarImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.navBarButton{
+    float:left;
+    font-size: 20px;
+}
+
+
+
+/* Container holding the image and the text */
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front-image {
+    height: 400px;
+    width: 600px;
+}
+
+.bottom-pictures {
+    width: 1000px;
+    margin: 0;
+}
+.left-picture    {
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.right-picture  {
+    width: 600px;
+    height: 400px;
+    margin-left: 600px;
+}
+.bottom-image {
+    width: 600px;
+    height: 500px;
+}
+
+
+#a6-text{
+
+}
+
+#a6-image{
+
+}
+
+#a6-article{
+
+}
+#left-picture-a6{
+
+}
+
+#right-picture-a6{
+
+}
+
+#arteon-article{
+
+}
+
+
+#arteon-image{
+
+}
+
+#arteon-text{
+
+}
+
+
+#left-picture-arteon{
+
+}
+
+#right-picture-arteon{
+
+}
+
+#eclass-image{
+
+}
+
+#eclass-text{
+
+}
+
+#eclass-article{
+
+}
+#right-picture-eclass{
+
+}
+
+#left-picture-eclass{
+
+}
